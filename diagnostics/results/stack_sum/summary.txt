@@ -1,0 +1,6 @@
+EOF messages: 1
+CREATE_END_OK: 0
+DELETE_END_OK: 0
+CREATE_END_FAIL: 0
+Eager EndStep: 0 StepContainer cleanup: 0
+NOTE: TMPVAR_DTOR is not proof of Delete: a failed Create also destructs its new object.

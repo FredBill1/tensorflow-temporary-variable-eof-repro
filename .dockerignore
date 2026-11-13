@@ -1,0 +1,8 @@
+.git
+**/__pycache__
+**/*.pyc
+diagnostics/results
+results
+*.log
+*.tar.gz
+*.whl

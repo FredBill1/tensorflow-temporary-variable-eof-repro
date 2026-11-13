@@ -1,0 +1,766 @@
+2026-11-13 14:04:50.444638: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-11-13 14:04:50.468844: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+TensorFlow: 2.18.1 Keras: tf_keras.src.engine.training
+2026-11-13 14:04:51.667968: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7923935864854507889
+2026-11-13 14:04:51.670601: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-23084803885968563
+2026-11-13 14:04:51.685540: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2390657089193585064
+2026-11-13 14:04:51.687824: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-564552357640299126
+2026-11-13 14:04:51.690261: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-352160892574648471
+2026-11-13 14:04:51.691218: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2023966448055387648
+2026-11-13 14:04:51.691453: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5305798291273725672
+2026-11-13 14:04:51.691862: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2898742632732324364
+2026-11-13 14:04:51.692490: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4359569578709582306
+2026-11-13 14:04:51.692742: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5025604707838066074
+2026-11-13 14:04:51.695182: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1072986660393311053
+2026-11-13 14:04:51.696182: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4595005926669326992
+2026-11-13 14:04:51.696395: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3050248385807203694
+2026-11-13 14:04:51.696464: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2089906287551569391
+2026-11-13 14:04:51.696499: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8294621595304598735
+2026-11-13 14:04:51.697490: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5555500512236333847
+2026-11-13 14:04:51.702546: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1758484715737695810
+2026-11-13 14:04:51.705476: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4935681827332018480
+2026-11-13 14:04:51.706768: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-860919552603648194
+2026-11-13 14:04:51.707105: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8918446502131936069
+2026-11-13 14:04:51.707183: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7685230326602658988
+2026-11-13 14:04:51.707363: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5525555777587845327
+2026-11-13 14:04:51.707477: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1071747411783772845
+2026-11-13 14:04:51.709671: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-9112341699944041980
+2026-11-13 14:04:51.709796: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1427065138425515400
+2026-11-13 14:04:51.709978: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3295652409709898686
+2026-11-13 14:04:51.710285: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7344490872205718747
+2026-11-13 14:04:51.712458: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7984769788017929198
+2026-11-13 14:04:51.712633: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5233341647948267515
+2026-11-13 14:04:51.713981: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8074409390178034126
+2026-11-13 14:04:51.716652: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8559817794089734478
+2026-11-13 14:04:51.718086: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8111544317508989589
+2026-11-13 14:04:51.719126: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3509955228473705810
+2026-11-13 14:04:51.719656: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5712226188870656129
+2026-11-13 14:04:51.720106: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7951201444006882691
+2026-11-13 14:04:51.720885: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1455320163151422243
+2026-11-13 14:04:51.720975: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3490313121199476288
+2026-11-13 14:04:51.721370: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1112489896975489921
+2026-11-13 14:04:51.721753: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5685901979807698604
+2026-11-13 14:04:51.724597: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5377516300750008538
+2026-11-13 14:04:51.724697: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3415236672292504056
+2026-11-13 14:04:51.725101: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2763645599200980285
+2026-11-13 14:04:51.725614: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-830376726170418825
+2026-11-13 14:04:51.726295: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8251513975353939958
+2026-11-13 14:04:51.726407: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6296493073727346695
+2026-11-13 14:04:51.726638: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6061797894737447
+2026-11-13 14:04:51.727132: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8993437265086718681
+2026-11-13 14:04:51.727314: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1444467460008918118
+2026-11-13 14:04:51.730215: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-818351984834884872
+2026-11-13 14:04:51.730373: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4143372050133507062
+2026-11-13 14:04:51.731128: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5632549612388873129
+2026-11-13 14:04:51.731298: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5808897910812342252
+2026-11-13 14:04:51.731711: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3702952626096080629
+2026-11-13 14:04:51.731786: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7369087826554724001
+2026-11-13 14:04:51.732225: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3511759860409219222
+2026-11-13 14:04:51.732359: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-19174769923325144
+2026-11-13 14:04:51.733248: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1029137730485306417
+2026-11-13 14:04:51.733329: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5106991024363912343
+2026-11-13 14:04:51.733384: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5076158807409671898
+2026-11-13 14:04:51.734125: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5607299707642229588
+Cardinality: 4 sum: AddN
+2026-11-13 14:04:51.734701: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1981982273594983460
+2026-11-13 14:04:51.737367: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8441061163085544685
+2026-11-13 14:04:51.737953: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1541371271527494082
+2026-11-13 14:04:51.738037: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5643355881085253968
+2026-11-13 14:04:51.739238: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-870971170119252564
+2026-11-13 14:04:51.739384: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1941269451525456986
+2026-11-13 14:04:51.739527: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3785957502015792734
+2026-11-13 14:04:51.740501: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6729997153772707535
+2026-11-13 14:04:51.741456: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6837033100893593832
+2026-11-13 14:04:51.741715: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-648059327011159348
+2026-11-13 14:04:51.741798: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2991242346207690935
+2026-11-13 14:04:51.742616: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5670524610750350699
+2026-11-13 14:04:51.742690: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4403970092525571486
+2026-11-13 14:04:51.744206: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8856005167134058629
+2026-11-13 14:04:51.744448: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2172360197983375159
+2026-11-13 14:04:51.744506: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6840674348247195652
+2026-11-13 14:04:51.744659: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6243760754214688449
+2026-11-13 14:04:51.744738: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7513676504827850306
+2026-11-13 14:04:51.745392: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7992982363665346932
+2026-11-13 14:04:51.745827: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-830786729269662864
+2026-11-13 14:04:51.753858: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-80831474597150033
+2026-11-13 14:04:51.753952: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4540739787219267258
+2026-11-13 14:04:51.756746: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7086477453637862533
+2026-11-13 14:04:51.756921: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1942972551482931534
+2026-11-13 14:04:51.756993: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1945359076140875964
+Epoch 1/3
+2026-11-13 14:04:51.757307: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7751575953704885609
+2026-11-13 14:04:51.757389: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6224917586911024462
+2026-11-13 14:04:51.870926: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8425156275681322037
+2026-11-13 14:04:51.871711: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1983369705983727726
+2026-11-13 14:04:51.871909: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6029434468506675438
+2026-11-13 14:04:51.872564: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2709909586271754030
+2026-11-13 14:04:51.874304: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7755752218588812106
+2026-11-13 14:04:51.874725: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5971672192963571608
+2026-11-13 14:04:51.875216: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8733792228597025590
+2026-11-13 14:04:51.876543: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3605267809398262396
+2026-11-13 14:04:51.876897: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5232096804664110474
+2026-11-13 14:04:51.877053: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3245072780250585299
+2026-11-13 14:04:51.877535: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5549417170385614015
+2026-11-13 14:04:51.877680: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2067348206021552326
+2026-11-13 14:04:51.897104: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5168350514808980148
+2026-11-13 14:04:51.897256: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6155299460335195650
+2026-11-13 14:04:51.897351: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3828372255527155950
+2026-11-13 14:04:51.897448: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4284023268811469994
+2026-11-13 14:04:51.897969: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2353937943074093187
+2026-11-13 14:04:51.898024: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-622592967386821242
+2026-11-13 14:04:51.898198: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4643876964816594825
+2026-11-13 14:04:51.898309: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8210082183469639691
+2026-11-13 14:04:52.068839: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-887848769572693645
+2026-11-13 14:04:52.071779: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d18001360
+2026-11-13 14:04:52.071824: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d18001360 ok=1 code=0 status=OK
+2026-11-13 14:04:52.075104: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd808 step_id=-7797875702096718524 container=__per_step_-7797875702096718524 dirty=0
+2026-11-13 14:04:52.096582: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-148638459966572371 container=__per_step_-148638459966572371 dirty=0
+2026-11-13 14:04:52.097011: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-355245062885527545 container=__per_step_-355245062885527545 dirty=0
+2026-11-13 14:04:52.097650: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8739072724367397780 container=__per_step_-8739072724367397780 dirty=0
+2026-11-13 14:04:52.098101: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3217206815094029958 container=__per_step_-3217206815094029958 dirty=0
+2026-11-13 14:04:52.098600: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6483787911909851834 container=__per_step_-6483787911909851834 dirty=0
+2026-11-13 14:04:52.099049: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-9060684957919728069 container=__per_step_-9060684957919728069 dirty=0
+2026-11-13 14:04:52.099381: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8047591371104214361 container=__per_step_-8047591371104214361 dirty=0
+2026-11-13 14:04:52.099655: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1267551087175012529 container=__per_step_-1267551087175012529 dirty=0
+2026-11-13 14:04:52.099936: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1897912873390922105 container=__per_step_-1897912873390922105 dirty=0
+2026-11-13 14:04:52.100344: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5358909453821143549 container=__per_step_-5358909453821143549 dirty=0
+2026-11-13 14:04:52.100878: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6316771332946222610 container=__per_step_-6316771332946222610 dirty=0
+2026-11-13 14:04:52.101197: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3474507384727301441 container=__per_step_-3474507384727301441 dirty=0
+2026-11-13 14:04:52.101474: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3757649531459857631 container=__per_step_-3757649531459857631 dirty=0
+2026-11-13 14:04:52.101733: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4192813239008363974 container=__per_step_-4192813239008363974 dirty=0
+2026-11-13 14:04:52.101997: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1294836549746217936 container=__per_step_-1294836549746217936 dirty=0
+2026-11-13 14:04:52.102268: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-166144816056150038 container=__per_step_-166144816056150038 dirty=0
+2026-11-13 14:04:52.102547: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-736437021223647062 container=__per_step_-736437021223647062 dirty=0
+2026-11-13 14:04:52.102846: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5208964294835097653 container=__per_step_-5208964294835097653 dirty=0
+2026-11-13 14:04:52.103146: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-285325147244785971 container=__per_step_-285325147244785971 dirty=0
+2026-11-13 14:04:52.103413: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8115926993343105593 container=__per_step_-8115926993343105593 dirty=0
+2026-11-13 14:04:52.103758: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3171697576069447580 container=__per_step_-3171697576069447580 dirty=0
+2026-11-13 14:04:52.104008: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3903470545341340306 container=__per_step_-3903470545341340306 dirty=0
+2026-11-13 14:04:52.104255: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5095335803379013367 container=__per_step_-5095335803379013367 dirty=0
+2026-11-13 14:04:52.104512: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5308875956257930970 container=__per_step_-5308875956257930970 dirty=0
+2026-11-13 14:04:52.104887: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2929115245266261410 container=__per_step_-2929115245266261410 dirty=0
+2026-11-13 14:04:52.105109: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8277658575383038871 container=__per_step_-8277658575383038871 dirty=0
+2026-11-13 14:04:52.105445: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5681315280605044825 container=__per_step_-5681315280605044825 dirty=0
+2026-11-13 14:04:52.105727: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1261754667320526558 container=__per_step_-1261754667320526558 dirty=0
+2026-11-13 14:04:52.106000: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3919651114748418384 container=__per_step_-3919651114748418384 dirty=0
+2026-11-13 14:04:52.106261: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3284919235019528332 container=__per_step_-3284919235019528332 dirty=0
+2026-11-13 14:04:52.106495: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8126738213474357848 container=__per_step_-8126738213474357848 dirty=0
+2026-11-13 14:04:52.106765: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1488140545672036119 container=__per_step_-1488140545672036119 dirty=0
+2026-11-13 14:04:52.106996: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-912498260692608094 container=__per_step_-912498260692608094 dirty=0
+2026-11-13 14:04:52.107444: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7761907736754067752 container=__per_step_-7761907736754067752 dirty=0
+2026-11-13 14:04:52.107674: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8367703661434958939 container=__per_step_-8367703661434958939 dirty=0
+2026-11-13 14:04:52.107879: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1466376142623108958 container=__per_step_-1466376142623108958 dirty=0
+2026-11-13 14:04:52.108123: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8468878563161996758 container=__per_step_-8468878563161996758 dirty=0
+2026-11-13 14:04:52.108401: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7871594661026907889 container=__per_step_-7871594661026907889 dirty=0
+2026-11-13 14:04:52.108663: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1763748878555348253 container=__per_step_-1763748878555348253 dirty=0
+2026-11-13 14:04:52.109054: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8531868335771638107 container=__per_step_-8531868335771638107 dirty=0
+2026-11-13 14:04:52.109386: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5252520058074375721 container=__per_step_-5252520058074375721 dirty=0
+2026-11-13 14:04:52.109581: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8150992525283641071 container=__per_step_-8150992525283641071 dirty=0
+2026-11-13 14:04:52.109786: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6565655566068785613 container=__per_step_-6565655566068785613 dirty=0
+2026-11-13 14:04:52.109995: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8724445031842492050 container=__per_step_-8724445031842492050 dirty=0
+2026-11-13 14:04:52.110259: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2521189165162356085 container=__per_step_-2521189165162356085 dirty=0
+2026-11-13 14:04:52.110492: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3787647725464982800 container=__per_step_-3787647725464982800 dirty=0
+2026-11-13 14:04:52.110741: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2289901725070474573 container=__per_step_-2289901725070474573 dirty=0
+2026-11-13 14:04:52.111052: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-9030693187773164493 container=__per_step_-9030693187773164493 dirty=0
+2026-11-13 14:04:52.111301: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-905367709255366806 container=__per_step_-905367709255366806 dirty=0
+2026-11-13 14:04:52.111537: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5353000040964733785 container=__per_step_-5353000040964733785 dirty=0
+2026-11-13 14:04:52.111787: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6984065041283312745 container=__per_step_-6984065041283312745 dirty=0
+2026-11-13 14:04:52.112065: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3409497801985867608 container=__per_step_-3409497801985867608 dirty=0
+2026-11-13 14:04:52.112307: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5476745964094851735 container=__per_step_-5476745964094851735 dirty=0
+2026-11-13 14:04:52.112573: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2782129137032146372 container=__per_step_-2782129137032146372 dirty=0
+2026-11-13 14:04:52.112809: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7339926265274035748 container=__per_step_-7339926265274035748 dirty=0
+2026-11-13 14:04:52.113075: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8082343691760075946 container=__per_step_-8082343691760075946 dirty=0
+2026-11-13 14:04:52.113336: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6410207915596376156 container=__per_step_-6410207915596376156 dirty=0
+2026-11-13 14:04:52.113530: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5881627021186713570 container=__per_step_-5881627021186713570 dirty=0
+2026-11-13 14:04:52.113837: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4128344735094848143 container=__per_step_-4128344735094848143 dirty=0
+2026-11-13 14:04:52.114073: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6785685170848762206 container=__per_step_-6785685170848762206 dirty=0
+2026-11-13 14:04:52.114351: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2165665418715203363 container=__per_step_-2165665418715203363 dirty=0
+2026-11-13 14:04:52.114603: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3051804767035633865 container=__per_step_-3051804767035633865 dirty=0
+2026-11-13 14:04:52.114875: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2084781182125913785 container=__per_step_-2084781182125913785 dirty=0
+2026-11-13 14:04:52.115096: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6658154163310114773 container=__per_step_-6658154163310114773 dirty=0
+2026-11-13 14:04:52.115465: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4904363404734119088 container=__per_step_-4904363404734119088 dirty=0
+2026-11-13 14:04:52.116066: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:52.116088: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708d18001360
+2026-11-13 14:04:52.116094: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:52.116597: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4320819214151281427
+2026-11-13 14:04:52.116761: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8278780431255242672
+2026-11-13 14:04:52.117366: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-9104933706893287015
+2026-11-13 14:04:52.117539: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d38001360
+2026-11-13 14:04:52.117579: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d38001360 ok=1 code=0 status=OK
+2026-11-13 14:04:52.122187: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1848809415393159544 container=__per_step_-1848809415393159544 dirty=0
+2026-11-13 14:04:52.122566: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:52.122624: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708d38001360
+2026-11-13 14:04:52.122639: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:52.122894: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4731202083634281599 container=__per_step_-4731202083634281599 dirty=0
+2026-11-13 14:04:52.123122: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1574183477786576013
+2026-11-13 14:04:52.123357: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3986641954783218477 container=__per_step_-3986641954783218477 dirty=0
+2026-11-13 14:04:52.123432: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2940680804151150342
+2026-11-13 14:04:52.123750: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8355424175383637909 container=__per_step_-8355424175383637909 dirty=0
+2026-11-13 14:04:52.124079: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2327996728306987231
+2026-11-13 14:04:52.124207: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d0c001850
+2026-11-13 14:04:52.124229: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d0c001850 ok=1 code=0 status=OK
+2026-11-13 14:04:52.124245: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8096910663967281673 container=__per_step_-8096910663967281673 dirty=0
+2026-11-13 14:04:52.124434: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5866609646415926775 container=__per_step_-5866609646415926775 dirty=0
+2026-11-13 14:04:52.124629: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2438778937314371180 container=__per_step_-2438778937314371180 dirty=0
+2026-11-13 14:04:52.129128: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2235544571269774897 container=__per_step_-2235544571269774897 dirty=0
+2026-11-13 14:04:52.129433: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1108907927323783145 container=__per_step_-1108907927323783145 dirty=0
+2026-11-13 14:04:52.129768: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2604414806186370875 container=__per_step_-2604414806186370875 dirty=0
+2026-11-13 14:04:52.130050: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1149380414818421837 container=__per_step_-1149380414818421837 dirty=0
+2026-11-13 14:04:52.130276: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-614034764676355703 container=__per_step_-614034764676355703 dirty=0
+2026-11-13 14:04:52.130542: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-897478583651517420 container=__per_step_-897478583651517420 dirty=0
+2026-11-13 14:04:52.130727: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5618340646351852511 container=__per_step_-5618340646351852511 dirty=0
+2026-11-13 14:04:52.130949: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5291440805789823460 container=__per_step_-5291440805789823460 dirty=0
+2026-11-13 14:04:52.131189: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-9066904838570517683 container=__per_step_-9066904838570517683 dirty=0
+2026-11-13 14:04:52.131650: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2777174105094948803 container=__per_step_-2777174105094948803 dirty=0
+2026-11-13 14:04:52.131901: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8356282953828926453 container=__per_step_-8356282953828926453 dirty=0
+2026-11-13 14:04:52.132241: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1507056252817889195 container=__per_step_-1507056252817889195 dirty=0
+2026-11-13 14:04:52.132520: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5987161451873623823 container=__per_step_-5987161451873623823 dirty=0
+2026-11-13 14:04:52.132738: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1721845364961490907 container=__per_step_-1721845364961490907 dirty=0
+2026-11-13 14:04:52.132928: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1020644856529909575 container=__per_step_-1020644856529909575 dirty=0
+2026-11-13 14:04:52.133286: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2684293320480072225 container=__per_step_-2684293320480072225 dirty=0
+2026-11-13 14:04:52.133521: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-796973517222103003 container=__per_step_-796973517222103003 dirty=0
+2026-11-13 14:04:52.133794: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7672751674845804276 container=__per_step_-7672751674845804276 dirty=0
+2026-11-13 14:04:52.134013: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4812105548708907730 container=__per_step_-4812105548708907730 dirty=0
+2026-11-13 14:04:52.134254: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5874906730619512718 container=__per_step_-5874906730619512718 dirty=0
+2026-11-13 14:04:52.134459: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-9110629727637161170 container=__per_step_-9110629727637161170 dirty=0
+2026-11-13 14:04:52.134709: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6787939740240313189 container=__per_step_-6787939740240313189 dirty=0
+2026-11-13 14:04:52.134959: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3307777270821760403 container=__per_step_-3307777270821760403 dirty=0
+2026-11-13 14:04:52.135228: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1521292887587947863 container=__per_step_-1521292887587947863 dirty=0
+2026-11-13 14:04:52.135526: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1714751547572823964 container=__per_step_-1714751547572823964 dirty=0
+2026-11-13 14:04:52.135840: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4004594231170274834 container=__per_step_-4004594231170274834 dirty=0
+2026-11-13 14:04:52.135957: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:52.135995: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708d0c001850
+2026-11-13 14:04:52.136003: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:52.136295: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-311536749671788475 container=__per_step_-311536749671788475 dirty=0
+2026-11-13 14:04:52.136509: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7783848606619037058
+2026-11-13 14:04:52.136696: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7476014559405641781 container=__per_step_-7476014559405641781 dirty=0
+2026-11-13 14:04:52.136793: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-676136316124156088
+2026-11-13 14:04:52.136954: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7910531078540345150 container=__per_step_-7910531078540345150 dirty=0
+2026-11-13 14:04:52.137446: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3871618039319911955
+2026-11-13 14:04:52.137588: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d1c009a80
+2026-11-13 14:04:52.137634: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d1c009a80 ok=1 code=0 status=OK
+2026-11-13 14:04:52.138029: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2837391654965638399 container=__per_step_-2837391654965638399 dirty=0
+2026-11-13 14:04:52.138684: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-504736847979334431 container=__per_step_-504736847979334431 dirty=0
+2026-11-13 14:04:52.139306: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-9217837571304241235 container=__per_step_-9217837571304241235 dirty=0
+2026-11-13 14:04:52.139980: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2538834864561338870 container=__per_step_-2538834864561338870 dirty=0
+2026-11-13 14:04:52.141977: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2856526132136841046 container=__per_step_-2856526132136841046 dirty=0
+2026-11-13 14:04:52.142482: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1196901365890744261 container=__per_step_-1196901365890744261 dirty=0
+2026-11-13 14:04:52.142785: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-325552133900331692 container=__per_step_-325552133900331692 dirty=0
+2026-11-13 14:04:52.143068: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7665260380975590039 container=__per_step_-7665260380975590039 dirty=0
+2026-11-13 14:04:52.143326: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8005146825439522934 container=__per_step_-8005146825439522934 dirty=0
+2026-11-13 14:04:52.143568: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8807862472459458425 container=__per_step_-8807862472459458425 dirty=0
+2026-11-13 14:04:52.143781: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2430052750128992903 container=__per_step_-2430052750128992903 dirty=0
+2026-11-13 14:04:52.143981: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7495267445959155785 container=__per_step_-7495267445959155785 dirty=0
+2026-11-13 14:04:52.144187: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2198213250041566521 container=__per_step_-2198213250041566521 dirty=0
+2026-11-13 14:04:52.144382: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8651912513452992030 container=__per_step_-8651912513452992030 dirty=0
+2026-11-13 14:04:52.144587: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1517859470393773705 container=__per_step_-1517859470393773705 dirty=0
+2026-11-13 14:04:52.144806: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1844554738138100244 container=__per_step_-1844554738138100244 dirty=0
+2026-11-13 14:04:52.145044: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3397507575445984432 container=__per_step_-3397507575445984432 dirty=0
+2026-11-13 14:04:52.145354: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1409959389441894147 container=__per_step_-1409959389441894147 dirty=0
+2026-11-13 14:04:52.145584: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-513175164645079445 container=__per_step_-513175164645079445 dirty=0
+2026-11-13 14:04:52.145791: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2726682065686405577 container=__per_step_-2726682065686405577 dirty=0
+2026-11-13 14:04:52.146024: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4524799845634936725 container=__per_step_-4524799845634936725 dirty=0
+2026-11-13 14:04:52.146282: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6903730907689370069 container=__per_step_-6903730907689370069 dirty=0
+2026-11-13 14:04:52.146715: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-9190202843603191204 container=__per_step_-9190202843603191204 dirty=0
+2026-11-13 14:04:52.146953: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5820350457728107317 container=__per_step_-5820350457728107317 dirty=0
+2026-11-13 14:04:52.147185: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4195259343325875326 container=__per_step_-4195259343325875326 dirty=0
+2026-11-13 14:04:52.147472: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7141917123811183479 container=__per_step_-7141917123811183479 dirty=0
+2026-11-13 14:04:52.147719: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3320523044676268316 container=__per_step_-3320523044676268316 dirty=0
+2026-11-13 14:04:52.147951: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6834681788394387451 container=__per_step_-6834681788394387451 dirty=0
+2026-11-13 14:04:52.148335: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:52.148362: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708d1c009a80
+2026-11-13 14:04:52.148369: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:52.149980: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2431761363868451932
+2026-11-13 14:04:52.150166: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-9072856130010634573
+2026-11-13 14:04:52.150837: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-140844261757250266
+2026-11-13 14:04:52.151292: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1753895819664898376
+2026-11-13 14:04:52.151784: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3067544333675688055
+2026-11-13 14:04:52.151849: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1100721670373830482
+2026-11-13 14:04:52.151883: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2036828292438740833
+2026-11-13 14:04:52.151918: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-177350773921187180
+2026-11-13 14:04:52.152100: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2187655095250613428
+2026-11-13 14:04:52.152150: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6042121587217343582
+2026-11-13 14:04:52.152620: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-598170236831101137
+2026-11-13 14:04:52.152667: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3186621513639155289
+2026-11-13 14:04:52.152698: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4941734757267793873
+2026-11-13 14:04:52.152731: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1821971012557338435
+2026-11-13 14:04:52.152783: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-9213003193539303783
+2026-11-13 14:04:52.152816: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2050553798080088021
+2026-11-13 14:04:52.152882: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4324975177672456176
+2026-11-13 14:04:52.152909: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7308842446458443169
+2026-11-13 14:04:52.153447: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8336738828888889764
+2026-11-13 14:04:52.153499: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3206009282792371420
+2026-11-13 14:04:52.153834: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4768797614106870559
+2026-11-13 14:04:52.153925: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8064838579680693124
+2026-11-13 14:04:52.153956: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2847724961923230418
+2026-11-13 14:04:52.154006: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-633232976296914584
+2026-11-13 14:04:52.154039: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3889842009608994023
+2026-11-13 14:04:52.154527: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2913348523698762153
+2026-11-13 14:04:52.154635: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7803357024551529563
+2026-11-13 14:04:52.156825: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2193052015174243020
+2026-11-13 14:04:52.156907: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8701625723113235753
+2026-11-13 14:04:52.158134: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7102835340006431399
+2026-11-13 14:04:52.158259: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6520321867330619162
+2026-11-13 14:04:52.158318: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7335172975165303844
+2026-11-13 14:04:52.158482: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-476601360860718652
+2026-11-13 14:04:52.159066: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3176097457557825903
+2026-11-13 14:04:52.159237: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8749736726283174115
+2026-11-13 14:04:52.159298: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8747526017985257670
+2026-11-13 14:04:52.159380: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-951676705843502297
+2026-11-13 14:04:52.159425: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6566251187244118093
+2026-11-13 14:04:52.159478: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2942121078935193725
+2026-11-13 14:04:52.159516: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5696494443882277839
+2026-11-13 14:04:52.159598: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-758649006463372661
+2026-11-13 14:04:52.159651: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1848407854721873371
+2026-11-13 14:04:52.227225: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3457635763999321635
+2026-11-13 14:04:52.229915: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8695714391352520305
+2026-11-13 14:04:52.230009: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-9145569543859131662
+2026-11-13 14:04:52.230049: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4388686606674511221
+2026-11-13 14:04:52.230102: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-209880960177717127
+2026-11-13 14:04:52.230278: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6981014989810980016
+2026-11-13 14:04:52.230322: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1826968046483525907
+2026-11-13 14:04:52.230348: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7232455911212270050
+2026-11-13 14:04:52.230375: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8560523301623671859
+4/4 - 0s - loss: 0.4239 - binary_accuracy: 0.5000 - val_loss: 1.0595 - val_binary_accuracy: 0.0000e+00 - 474ms/epoch - 119ms/step
+2026-11-13 14:04:52.231482: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2628306089552082061
+2026-11-13 14:04:52.231570: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1035741141080983213
+2026-11-13 14:04:52.234450: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1269911313513667093
+2026-11-13 14:04:52.234577: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4058480402711891237
+2026-11-13 14:04:52.234632: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6147578491466709342
+2026-11-13 14:04:52.649465: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1719898545615427077 container=__per_step_-1719898545615427077 dirty=0
+2026-11-13 14:04:52.649571: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1419678514747665473 container=__per_step_-1419678514747665473 dirty=0
+2026-11-13 14:04:52.650026: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x7ffd3b1c8b28 step_id=-462755037399648067 container=__per_step_-462755037399648067 dirty=0
+2026-11-13 14:04:52.651154: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8426363401712922474
+2026-11-13 14:04:52.651299: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6895879637659502259
+2026-11-13 14:04:52.651440: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5734071858032167336
+2026-11-13 14:04:52.651502: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4487960343880006397
+2026-11-13 14:04:52.651570: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6027907539236018828
+2026-11-13 14:04:52.651601: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-261037668412650504
+2026-11-13 14:04:52.651642: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-9191815653049514153
+2026-11-13 14:04:52.651669: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6833123639664992045
+Epoch 2/3
+2026-11-13 14:04:52.651848: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1217949553448710084
+2026-11-13 14:04:52.651930: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6552965949458759412
+2026-11-13 14:04:52.652375: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2581382778099500683
+2026-11-13 14:04:52.652555: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d400017f0
+2026-11-13 14:04:52.652581: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d400017f0 ok=1 code=0 status=OK
+2026-11-13 14:04:52.653017: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9808 step_id=-7513037384343691822 container=__per_step_-7513037384343691822 dirty=0
+2026-11-13 14:04:52.665504: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4514793557968386689 container=__per_step_-4514793557968386689 dirty=0
+2026-11-13 14:04:52.666007: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3974303054209498718 container=__per_step_-3974303054209498718 dirty=0
+2026-11-13 14:04:52.666273: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5585401583912617817 container=__per_step_-5585401583912617817 dirty=0
+2026-11-13 14:04:52.666469: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1815187892522549909 container=__per_step_-1815187892522549909 dirty=0
+2026-11-13 14:04:52.666634: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-2050571790389772365 container=__per_step_-2050571790389772365 dirty=0
+2026-11-13 14:04:52.666857: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-408700824989569767 container=__per_step_-408700824989569767 dirty=0
+2026-11-13 14:04:52.667076: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-2355063262093051201 container=__per_step_-2355063262093051201 dirty=0
+2026-11-13 14:04:52.667304: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3017966081185288199 container=__per_step_-3017966081185288199 dirty=0
+2026-11-13 14:04:52.667506: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5220422252824300652 container=__per_step_-5220422252824300652 dirty=0
+2026-11-13 14:04:52.667750: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-6474909642191334784 container=__per_step_-6474909642191334784 dirty=0
+2026-11-13 14:04:52.667970: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1214578723998199825 container=__per_step_-1214578723998199825 dirty=0
+2026-11-13 14:04:52.668178: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5911441563356830331 container=__per_step_-5911441563356830331 dirty=0
+2026-11-13 14:04:52.668377: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-7393847486464629550 container=__per_step_-7393847486464629550 dirty=0
+2026-11-13 14:04:52.668532: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3444633510215100759 container=__per_step_-3444633510215100759 dirty=0
+2026-11-13 14:04:52.668704: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4879469806909261880 container=__per_step_-4879469806909261880 dirty=0
+2026-11-13 14:04:52.668883: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-6622882790209510423 container=__per_step_-6622882790209510423 dirty=0
+2026-11-13 14:04:52.669240: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-6071074981260812089 container=__per_step_-6071074981260812089 dirty=0
+2026-11-13 14:04:52.669660: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5211665609469460865 container=__per_step_-5211665609469460865 dirty=0
+2026-11-13 14:04:52.669879: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5284276821751691387 container=__per_step_-5284276821751691387 dirty=0
+2026-11-13 14:04:52.670156: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-867005771449524766 container=__per_step_-867005771449524766 dirty=0
+2026-11-13 14:04:52.670394: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-6691425799470146542 container=__per_step_-6691425799470146542 dirty=0
+2026-11-13 14:04:52.670688: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-2277900691794447163 container=__per_step_-2277900691794447163 dirty=0
+2026-11-13 14:04:52.671000: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-6615933178168286008 container=__per_step_-6615933178168286008 dirty=0
+2026-11-13 14:04:52.671232: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3464064227587143 container=__per_step_-3464064227587143 dirty=0
+2026-11-13 14:04:52.671446: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5412474711351680996 container=__per_step_-5412474711351680996 dirty=0
+2026-11-13 14:04:52.671687: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-7739650557044228256 container=__per_step_-7739650557044228256 dirty=0
+2026-11-13 14:04:52.671908: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4495109655264527906 container=__per_step_-4495109655264527906 dirty=0
+2026-11-13 14:04:52.672215: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3511249546791746060 container=__per_step_-3511249546791746060 dirty=0
+2026-11-13 14:04:52.672510: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-362712932585748660 container=__per_step_-362712932585748660 dirty=0
+2026-11-13 14:04:52.672774: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8732024183062838340 container=__per_step_-8732024183062838340 dirty=0
+2026-11-13 14:04:52.673055: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1353129083006404098 container=__per_step_-1353129083006404098 dirty=0
+2026-11-13 14:04:52.673361: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-10151920648784250 container=__per_step_-10151920648784250 dirty=0
+2026-11-13 14:04:52.673587: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8728923558342418513 container=__per_step_-8728923558342418513 dirty=0
+2026-11-13 14:04:52.673894: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4039431483417513568 container=__per_step_-4039431483417513568 dirty=0
+2026-11-13 14:04:52.674066: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:52.674095: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708d400017f0
+2026-11-13 14:04:52.674105: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:52.674139: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-2423675515170656744 container=__per_step_-2423675515170656744 dirty=0
+2026-11-13 14:04:52.674411: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-6131440204216605402 container=__per_step_-6131440204216605402 dirty=0
+2026-11-13 14:04:52.674647: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3846099075302859058
+2026-11-13 14:04:52.674940: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1431850198518915197 container=__per_step_-1431850198518915197 dirty=0
+2026-11-13 14:04:52.675009: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6414286002723404803
+2026-11-13 14:04:52.675175: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-9050935298500316070 container=__per_step_-9050935298500316070 dirty=0
+2026-11-13 14:04:52.675693: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7895693246790932786
+2026-11-13 14:04:52.675880: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d1c009a80
+2026-11-13 14:04:52.675907: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d1c009a80 ok=1 code=0 status=OK
+2026-11-13 14:04:52.675920: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4059637416377711194 container=__per_step_-4059637416377711194 dirty=0
+2026-11-13 14:04:52.676224: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-6896881701326917069 container=__per_step_-6896881701326917069 dirty=0
+2026-11-13 14:04:52.676605: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-2421230817790381463 container=__per_step_-2421230817790381463 dirty=0
+2026-11-13 14:04:52.676966: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1198839072594016543 container=__per_step_-1198839072594016543 dirty=0
+2026-11-13 14:04:52.677346: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-9029485144772341354 container=__per_step_-9029485144772341354 dirty=0
+2026-11-13 14:04:52.677701: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-889147210657153450 container=__per_step_-889147210657153450 dirty=0
+2026-11-13 14:04:52.678034: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-7265567543755774499 container=__per_step_-7265567543755774499 dirty=0
+2026-11-13 14:04:52.678377: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3910749668550460346 container=__per_step_-3910749668550460346 dirty=0
+2026-11-13 14:04:52.678709: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8405961048931486472 container=__per_step_-8405961048931486472 dirty=0
+2026-11-13 14:04:52.679071: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8416147882350159566 container=__per_step_-8416147882350159566 dirty=0
+2026-11-13 14:04:52.679414: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3626281479757070959 container=__per_step_-3626281479757070959 dirty=0
+2026-11-13 14:04:52.679759: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1579495962817098134 container=__per_step_-1579495962817098134 dirty=0
+2026-11-13 14:04:52.680090: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4197174713783170832 container=__per_step_-4197174713783170832 dirty=0
+2026-11-13 14:04:52.680448: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1059145699312806164 container=__per_step_-1059145699312806164 dirty=0
+2026-11-13 14:04:52.680763: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-481249460656770837 container=__per_step_-481249460656770837 dirty=0
+2026-11-13 14:04:52.681042: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3540041185722012494 container=__per_step_-3540041185722012494 dirty=0
+2026-11-13 14:04:52.681360: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-2766312939302579069 container=__per_step_-2766312939302579069 dirty=0
+2026-11-13 14:04:52.681621: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5558046056356618133 container=__per_step_-5558046056356618133 dirty=0
+2026-11-13 14:04:52.681849: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5937063735982809975 container=__per_step_-5937063735982809975 dirty=0
+2026-11-13 14:04:52.682041: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1878124625460437596 container=__per_step_-1878124625460437596 dirty=0
+2026-11-13 14:04:52.682316: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3800920707142711461 container=__per_step_-3800920707142711461 dirty=0
+2026-11-13 14:04:52.682538: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-2189896690401793130 container=__per_step_-2189896690401793130 dirty=0
+2026-11-13 14:04:52.682753: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-7096294276562722419 container=__per_step_-7096294276562722419 dirty=0
+2026-11-13 14:04:52.683005: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1504217989693524912 container=__per_step_-1504217989693524912 dirty=0
+2026-11-13 14:04:52.683280: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4571872307323682642 container=__per_step_-4571872307323682642 dirty=0
+2026-11-13 14:04:52.683521: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-614261789942207692 container=__per_step_-614261789942207692 dirty=0
+2026-11-13 14:04:52.683764: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8233370573455753994 container=__per_step_-8233370573455753994 dirty=0
+2026-11-13 14:04:52.683996: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5786024288206083053 container=__per_step_-5786024288206083053 dirty=0
+2026-11-13 14:04:52.684163: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:52.684191: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708d1c009a80
+2026-11-13 14:04:52.684200: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:52.684238: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-9147560816892007733 container=__per_step_-9147560816892007733 dirty=0
+2026-11-13 14:04:52.684520: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4230415867580888807 container=__per_step_-4230415867580888807 dirty=0
+2026-11-13 14:04:52.684723: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6138438715681494338
+2026-11-13 14:04:52.684896: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8674913102265413139 container=__per_step_-8674913102265413139 dirty=0
+2026-11-13 14:04:52.685024: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5066303358836505693
+2026-11-13 14:04:52.685258: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-478605868740703410 container=__per_step_-478605868740703410 dirty=0
+2026-11-13 14:04:52.685760: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-9181348099605031619
+2026-11-13 14:04:52.685905: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d38001360
+2026-11-13 14:04:52.685931: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d38001360 ok=1 code=0 status=OK
+2026-11-13 14:04:52.686010: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8302682690551777334 container=__per_step_-8302682690551777334 dirty=0
+2026-11-13 14:04:52.690135: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-810206570346060683 container=__per_step_-810206570346060683 dirty=0
+2026-11-13 14:04:52.690658: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3163562550335976871 container=__per_step_-3163562550335976871 dirty=0
+2026-11-13 14:04:52.690993: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3700907688550935898 container=__per_step_-3700907688550935898 dirty=0
+2026-11-13 14:04:52.691298: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5279508245845545550 container=__per_step_-5279508245845545550 dirty=0
+2026-11-13 14:04:52.691604: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8751724628368099025 container=__per_step_-8751724628368099025 dirty=0
+2026-11-13 14:04:52.691936: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5673934774964729095 container=__per_step_-5673934774964729095 dirty=0
+2026-11-13 14:04:52.692200: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8811295014947796818 container=__per_step_-8811295014947796818 dirty=0
+2026-11-13 14:04:52.692451: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8545247872099620049 container=__per_step_-8545247872099620049 dirty=0
+2026-11-13 14:04:52.692723: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-605654215431553900 container=__per_step_-605654215431553900 dirty=0
+2026-11-13 14:04:52.693036: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-7125041910527539888 container=__per_step_-7125041910527539888 dirty=0
+2026-11-13 14:04:52.693361: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8055924825972889736 container=__per_step_-8055924825972889736 dirty=0
+2026-11-13 14:04:52.693667: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1128101941315365199 container=__per_step_-1128101941315365199 dirty=0
+2026-11-13 14:04:52.693931: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3156477960597632316 container=__per_step_-3156477960597632316 dirty=0
+2026-11-13 14:04:52.694205: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-957334579888341784 container=__per_step_-957334579888341784 dirty=0
+2026-11-13 14:04:52.694470: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5325638863938300620 container=__per_step_-5325638863938300620 dirty=0
+2026-11-13 14:04:52.694686: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1683015705752654983 container=__per_step_-1683015705752654983 dirty=0
+2026-11-13 14:04:52.694919: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8757028309473098767 container=__per_step_-8757028309473098767 dirty=0
+2026-11-13 14:04:52.695199: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5869796219022322105 container=__per_step_-5869796219022322105 dirty=0
+2026-11-13 14:04:52.695448: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4144111683747233342 container=__per_step_-4144111683747233342 dirty=0
+2026-11-13 14:04:52.695739: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-201289663240862812 container=__per_step_-201289663240862812 dirty=0
+2026-11-13 14:04:52.696032: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-73150694878837982 container=__per_step_-73150694878837982 dirty=0
+2026-11-13 14:04:52.696318: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3053769568825530460 container=__per_step_-3053769568825530460 dirty=0
+2026-11-13 14:04:52.696542: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5149587821242352690 container=__per_step_-5149587821242352690 dirty=0
+2026-11-13 14:04:52.696833: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3863681987180568384 container=__per_step_-3863681987180568384 dirty=0
+2026-11-13 14:04:52.697154: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4327554209334614888 container=__per_step_-4327554209334614888 dirty=0
+2026-11-13 14:04:52.697354: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-6788978216978738659 container=__per_step_-6788978216978738659 dirty=0
+2026-11-13 14:04:52.697656: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-6011816395533949295 container=__per_step_-6011816395533949295 dirty=0
+2026-11-13 14:04:52.697877: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:52.697905: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708d38001360
+2026-11-13 14:04:52.697912: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-7221086114969705364 container=__per_step_-7221086114969705364 dirty=0
+2026-11-13 14:04:52.697964: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:52.698276: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3154511206201933858 container=__per_step_-3154511206201933858 dirty=0
+2026-11-13 14:04:52.698507: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2717104492400807508
+2026-11-13 14:04:52.698654: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-2519761795721736907 container=__per_step_-2519761795721736907 dirty=0
+2026-11-13 14:04:52.698778: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3474149287213292307
+2026-11-13 14:04:52.698940: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1120437272735233998 container=__per_step_-1120437272735233998 dirty=0
+2026-11-13 14:04:52.699400: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8675158359896407780
+2026-11-13 14:04:52.699530: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d400017f0
+2026-11-13 14:04:52.699566: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d400017f0 ok=1 code=0 status=OK
+2026-11-13 14:04:52.699622: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3495184509720230565 container=__per_step_-3495184509720230565 dirty=0
+2026-11-13 14:04:52.703953: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5826134033404466432 container=__per_step_-5826134033404466432 dirty=0
+2026-11-13 14:04:52.704408: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8781748413964959489 container=__per_step_-8781748413964959489 dirty=0
+2026-11-13 14:04:52.704672: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-6582125788109809426 container=__per_step_-6582125788109809426 dirty=0
+2026-11-13 14:04:52.704931: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-7908208298762049939 container=__per_step_-7908208298762049939 dirty=0
+2026-11-13 14:04:52.705179: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-2757477915015330329 container=__per_step_-2757477915015330329 dirty=0
+2026-11-13 14:04:52.705414: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-7986497912723312798 container=__per_step_-7986497912723312798 dirty=0
+2026-11-13 14:04:52.705611: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-886506570468361282 container=__per_step_-886506570468361282 dirty=0
+2026-11-13 14:04:52.705867: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-2211016555153588512 container=__per_step_-2211016555153588512 dirty=0
+2026-11-13 14:04:52.706138: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4390715931364306826 container=__per_step_-4390715931364306826 dirty=0
+2026-11-13 14:04:52.706422: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5999661933864069201 container=__per_step_-5999661933864069201 dirty=0
+2026-11-13 14:04:52.706761: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1565002585887095962 container=__per_step_-1565002585887095962 dirty=0
+2026-11-13 14:04:52.707034: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-3537475860202430772 container=__per_step_-3537475860202430772 dirty=0
+2026-11-13 14:04:52.707284: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-7155928402457404081 container=__per_step_-7155928402457404081 dirty=0
+2026-11-13 14:04:52.707557: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-810476765233890576 container=__per_step_-810476765233890576 dirty=0
+2026-11-13 14:04:52.707816: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-1969862617113359368 container=__per_step_-1969862617113359368 dirty=0
+2026-11-13 14:04:52.708109: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-6261544820626440014 container=__per_step_-6261544820626440014 dirty=0
+2026-11-13 14:04:52.708456: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-236377545675810192 container=__per_step_-236377545675810192 dirty=0
+2026-11-13 14:04:52.708735: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-280988026107706659 container=__per_step_-280988026107706659 dirty=0
+2026-11-13 14:04:52.709046: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8819680852065227680 container=__per_step_-8819680852065227680 dirty=0
+2026-11-13 14:04:52.709320: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-347771478856365314 container=__per_step_-347771478856365314 dirty=0
+2026-11-13 14:04:52.709627: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8623795662292665592 container=__per_step_-8623795662292665592 dirty=0
+2026-11-13 14:04:52.709909: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8815190811592195004 container=__per_step_-8815190811592195004 dirty=0
+2026-11-13 14:04:52.710168: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4266985539609941806 container=__per_step_-4266985539609941806 dirty=0
+2026-11-13 14:04:52.710407: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-8140364324105636582 container=__per_step_-8140364324105636582 dirty=0
+2026-11-13 14:04:52.710752: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-4862523452050131327 container=__per_step_-4862523452050131327 dirty=0
+2026-11-13 14:04:52.711017: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-5705491110831131825 container=__per_step_-5705491110831131825 dirty=0
+2026-11-13 14:04:52.711447: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:52.711475: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708d400017f0
+2026-11-13 14:04:52.711481: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:52.712344: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3978273829924873771
+2026-11-13 14:04:52.712458: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3327713548135025860
+2026-11-13 14:04:52.712523: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5780439181517244212
+2026-11-13 14:04:52.712598: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4645878419722267200
+2026-11-13 14:04:52.712824: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-879627889375619296
+2026-11-13 14:04:52.712881: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2137768209488685386
+2026-11-13 14:04:52.712926: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8099151449844202664
+2026-11-13 14:04:52.712977: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8064966231179691956
+2026-11-13 14:04:52.713596: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5731583690119920939
+2026-11-13 14:04:52.713755: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4057733201220814303
+2026-11-13 14:04:52.713819: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8110512998853765175
+2026-11-13 14:04:52.713868: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1483044347937892728
+2026-11-13 14:04:52.713894: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6970702382550629261
+2026-11-13 14:04:52.714023: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7159036832420027957
+2026-11-13 14:04:52.714094: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7097765117374820369
+2026-11-13 14:04:52.714757: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1750107380050220449
+2026-11-13 14:04:52.714819: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2007574714752999777
+2026-11-13 14:04:52.716053: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3158124590003018805
+2026-11-13 14:04:52.716178: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1420278229807662596
+2026-11-13 14:04:52.716231: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2701540302274911745
+2026-11-13 14:04:52.716381: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6743039480365342615
+2026-11-13 14:04:52.716441: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7876996925217511536
+2026-11-13 14:04:52.716512: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4032119478705014890
+2026-11-13 14:04:52.716543: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-954162173496917050
+2026-11-13 14:04:52.716594: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8944022254203841969
+2026-11-13 14:04:52.716622: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-56699675969169763
+2026-11-13 14:04:52.716656: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6097496905159718502
+2026-11-13 14:04:52.716686: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4417919969332458026
+2026-11-13 14:04:52.716745: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8255642869995730415
+2026-11-13 14:04:52.716781: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-437929014287157799
+2026-11-13 14:04:52.717241: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8461695423316451588
+2026-11-13 14:04:52.718355: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3432181465236719992
+2026-11-13 14:04:52.718457: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3006326276340994795
+2026-11-13 14:04:52.718511: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3297824999265965416
+2026-11-13 14:04:52.718560: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7293333465736616590
+2026-11-13 14:04:52.718711: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-743935996845785536
+2026-11-13 14:04:52.718751: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8420906780528818893
+2026-11-13 14:04:52.718779: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-550046195157785326
+2026-11-13 14:04:52.718812: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1914221826135699876
+4/4 - 0s - loss: 0.4224 - binary_accuracy: 0.5039 - val_loss: 1.0511 - val_binary_accuracy: 0.0000e+00 - 68ms/epoch - 17ms/step
+2026-11-13 14:04:52.720122: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5304321618334211321
+2026-11-13 14:04:52.720209: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1903666131316200427
+2026-11-13 14:04:52.723468: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4036664441623883388
+2026-11-13 14:04:52.723620: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7402998794075809333
+2026-11-13 14:04:52.723681: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7351539502085923995
+2026-11-13 14:04:53.212404: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-2714545591808528441 container=__per_step_-2714545591808528441 dirty=0
+2026-11-13 14:04:53.212502: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708d29ff9898 step_id=-7245225532603252423 container=__per_step_-7245225532603252423 dirty=0
+2026-11-13 14:04:53.213205: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x7ffd3b1c8b28 step_id=-2854526811079654103 container=__per_step_-2854526811079654103 dirty=0
+2026-11-13 14:04:53.214767: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1285356172857544607
+2026-11-13 14:04:53.214987: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4538341632654931833
+2026-11-13 14:04:53.215169: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5790988097288615686
+2026-11-13 14:04:53.215257: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7424932894547252268
+2026-11-13 14:04:53.215386: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5952997619801502735
+2026-11-13 14:04:53.215457: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-9215461868253046879
+2026-11-13 14:04:53.215551: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-110145006634182729
+2026-11-13 14:04:53.215618: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4978259491289403423
+Epoch 3/3
+2026-11-13 14:04:53.215920: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-856685671655036441
+2026-11-13 14:04:53.216071: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-431943405979031582
+2026-11-13 14:04:53.216810: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3532994165832159442
+2026-11-13 14:04:53.217070: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708cfc002340
+2026-11-13 14:04:53.217125: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708cfc002340 ok=1 code=0 status=OK
+2026-11-13 14:04:53.217976: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd808 step_id=-7934162022995212559 container=__per_step_-7934162022995212559 dirty=0
+2026-11-13 14:04:53.229694: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4291563076014987298 container=__per_step_-4291563076014987298 dirty=0
+2026-11-13 14:04:53.230097: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8843670493738240566 container=__per_step_-8843670493738240566 dirty=0
+2026-11-13 14:04:53.230380: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3333748901602731552 container=__per_step_-3333748901602731552 dirty=0
+2026-11-13 14:04:53.230575: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3832349982525064626 container=__per_step_-3832349982525064626 dirty=0
+2026-11-13 14:04:53.230833: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7741409053310253770 container=__per_step_-7741409053310253770 dirty=0
+2026-11-13 14:04:53.231054: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3416659862310836446 container=__per_step_-3416659862310836446 dirty=0
+2026-11-13 14:04:53.231255: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1636509202246023755 container=__per_step_-1636509202246023755 dirty=0
+2026-11-13 14:04:53.231480: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5018611392400847398 container=__per_step_-5018611392400847398 dirty=0
+2026-11-13 14:04:53.231670: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1692280188303166309 container=__per_step_-1692280188303166309 dirty=0
+2026-11-13 14:04:53.231967: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4814730329013936165 container=__per_step_-4814730329013936165 dirty=0
+2026-11-13 14:04:53.232262: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8125986910582844258 container=__per_step_-8125986910582844258 dirty=0
+2026-11-13 14:04:53.232487: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7967004459117248771 container=__per_step_-7967004459117248771 dirty=0
+2026-11-13 14:04:53.232794: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-9142009791886349902 container=__per_step_-9142009791886349902 dirty=0
+2026-11-13 14:04:53.233043: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3271219351855386581 container=__per_step_-3271219351855386581 dirty=0
+2026-11-13 14:04:53.233335: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3937227759149833533 container=__per_step_-3937227759149833533 dirty=0
+2026-11-13 14:04:53.233572: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4574000264593010820 container=__per_step_-4574000264593010820 dirty=0
+2026-11-13 14:04:53.233854: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4826190290481492404 container=__per_step_-4826190290481492404 dirty=0
+2026-11-13 14:04:53.234162: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2298489354467186356 container=__per_step_-2298489354467186356 dirty=0
+2026-11-13 14:04:53.234509: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8483298659535919748 container=__per_step_-8483298659535919748 dirty=0
+2026-11-13 14:04:53.234899: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2459299843033985318 container=__per_step_-2459299843033985318 dirty=0
+2026-11-13 14:04:53.235161: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2535751083190439190 container=__per_step_-2535751083190439190 dirty=0
+2026-11-13 14:04:53.235407: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3306592339127596712 container=__per_step_-3306592339127596712 dirty=0
+2026-11-13 14:04:53.235643: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1453750745705132481 container=__per_step_-1453750745705132481 dirty=0
+2026-11-13 14:04:53.235915: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-684256107016473973 container=__per_step_-684256107016473973 dirty=0
+2026-11-13 14:04:53.236180: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8120340085836196167 container=__per_step_-8120340085836196167 dirty=0
+2026-11-13 14:04:53.236446: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6164952700897093633 container=__per_step_-6164952700897093633 dirty=0
+2026-11-13 14:04:53.236733: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7405357370778268511 container=__per_step_-7405357370778268511 dirty=0
+2026-11-13 14:04:53.236962: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7105123802553517562 container=__per_step_-7105123802553517562 dirty=0
+2026-11-13 14:04:53.237247: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4914050868676284281 container=__per_step_-4914050868676284281 dirty=0
+2026-11-13 14:04:53.237757: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8096439992651082488 container=__per_step_-8096439992651082488 dirty=0
+2026-11-13 14:04:53.238171: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-97900972023302442 container=__per_step_-97900972023302442 dirty=0
+2026-11-13 14:04:53.238407: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-267906233628524166 container=__per_step_-267906233628524166 dirty=0
+2026-11-13 14:04:53.238671: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1103546289735936845 container=__per_step_-1103546289735936845 dirty=0
+2026-11-13 14:04:53.239063: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7975803275052166394 container=__per_step_-7975803275052166394 dirty=0
+2026-11-13 14:04:53.239107: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:53.239127: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708cfc002340
+2026-11-13 14:04:53.239145: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:53.239371: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-9208547507000664879 container=__per_step_-9208547507000664879 dirty=0
+2026-11-13 14:04:53.239635: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8763385590946220536
+2026-11-13 14:04:53.239834: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-353047972952827731 container=__per_step_-353047972952827731 dirty=0
+2026-11-13 14:04:53.239904: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6928263470920457233
+2026-11-13 14:04:53.240096: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4473153904113991299 container=__per_step_-4473153904113991299 dirty=0
+2026-11-13 14:04:53.240595: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6222783978455227723
+2026-11-13 14:04:53.240717: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708cfc003310
+2026-11-13 14:04:53.240751: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708cfc003310 ok=1 code=0 status=OK
+2026-11-13 14:04:53.240825: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5899651663406820646 container=__per_step_-5899651663406820646 dirty=0
+2026-11-13 14:04:53.241520: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5577678956977651401 container=__per_step_-5577678956977651401 dirty=0
+2026-11-13 14:04:53.242151: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5604174730453534373 container=__per_step_-5604174730453534373 dirty=0
+2026-11-13 14:04:53.242527: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3199972630091065261 container=__per_step_-3199972630091065261 dirty=0
+2026-11-13 14:04:53.242861: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7711534623626688721 container=__per_step_-7711534623626688721 dirty=0
+2026-11-13 14:04:53.243140: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8089090357813259903 container=__per_step_-8089090357813259903 dirty=0
+2026-11-13 14:04:53.243458: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4650308912150661668 container=__per_step_-4650308912150661668 dirty=0
+2026-11-13 14:04:53.243759: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5516731677279774611 container=__per_step_-5516731677279774611 dirty=0
+2026-11-13 14:04:53.244041: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5859541488261549648 container=__per_step_-5859541488261549648 dirty=0
+2026-11-13 14:04:53.244327: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6783120404920885295 container=__per_step_-6783120404920885295 dirty=0
+2026-11-13 14:04:53.244720: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5109671696342312513 container=__per_step_-5109671696342312513 dirty=0
+2026-11-13 14:04:53.245151: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8991422905633575073 container=__per_step_-8991422905633575073 dirty=0
+2026-11-13 14:04:53.245468: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1811257213839002758 container=__per_step_-1811257213839002758 dirty=0
+2026-11-13 14:04:53.245755: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6801000820223790170 container=__per_step_-6801000820223790170 dirty=0
+2026-11-13 14:04:53.246027: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7730049791859589753 container=__per_step_-7730049791859589753 dirty=0
+2026-11-13 14:04:53.246285: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7687779198643514722 container=__per_step_-7687779198643514722 dirty=0
+2026-11-13 14:04:53.246547: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1007925292164086343 container=__per_step_-1007925292164086343 dirty=0
+2026-11-13 14:04:53.246820: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2769033137063062059 container=__per_step_-2769033137063062059 dirty=0
+2026-11-13 14:04:53.247115: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8794727193972675899 container=__per_step_-8794727193972675899 dirty=0
+2026-11-13 14:04:53.247395: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3421820878258432555 container=__per_step_-3421820878258432555 dirty=0
+2026-11-13 14:04:53.247650: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4171195401000000690 container=__per_step_-4171195401000000690 dirty=0
+2026-11-13 14:04:53.247928: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4626582216159672368 container=__per_step_-4626582216159672368 dirty=0
+2026-11-13 14:04:53.248197: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1367762259307531630 container=__per_step_-1367762259307531630 dirty=0
+2026-11-13 14:04:53.248435: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6017592422158505829 container=__per_step_-6017592422158505829 dirty=0
+2026-11-13 14:04:53.248677: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3412171894493108611 container=__per_step_-3412171894493108611 dirty=0
+2026-11-13 14:04:53.248917: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6045038089661743761 container=__per_step_-6045038089661743761 dirty=0
+2026-11-13 14:04:53.249186: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7551893957249373480 container=__per_step_-7551893957249373480 dirty=0
+2026-11-13 14:04:53.249396: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1897808902425355309 container=__per_step_-1897808902425355309 dirty=0
+2026-11-13 14:04:53.249685: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2539099296409657941 container=__per_step_-2539099296409657941 dirty=0
+2026-11-13 14:04:53.249876: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:53.249908: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708cfc003310
+2026-11-13 14:04:53.249917: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:53.250021: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2309784930554270281 container=__per_step_-2309784930554270281 dirty=0
+2026-11-13 14:04:53.250212: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1238104332771763956
+2026-11-13 14:04:53.250466: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6748210315729164150 container=__per_step_-6748210315729164150 dirty=0
+2026-11-13 14:04:53.250564: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4347152646424455938
+2026-11-13 14:04:53.250747: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-540872394024735090 container=__per_step_-540872394024735090 dirty=0
+2026-11-13 14:04:53.251187: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5542953919124275280
+2026-11-13 14:04:53.251340: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d10001700
+2026-11-13 14:04:53.251381: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d10001700 ok=1 code=0 status=OK
+2026-11-13 14:04:53.251429: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6349225316462572890 container=__per_step_-6349225316462572890 dirty=0
+2026-11-13 14:04:53.256426: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5232578748592803346 container=__per_step_-5232578748592803346 dirty=0
+2026-11-13 14:04:53.256800: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6103597437446813729 container=__per_step_-6103597437446813729 dirty=0
+2026-11-13 14:04:53.257315: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4267208989745118006 container=__per_step_-4267208989745118006 dirty=0
+2026-11-13 14:04:53.257603: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1230323141835624356 container=__per_step_-1230323141835624356 dirty=0
+2026-11-13 14:04:53.257894: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3025377144495992380 container=__per_step_-3025377144495992380 dirty=0
+2026-11-13 14:04:53.258156: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3377962931184499496 container=__per_step_-3377962931184499496 dirty=0
+2026-11-13 14:04:53.258396: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-9083761112793673422 container=__per_step_-9083761112793673422 dirty=0
+2026-11-13 14:04:53.258640: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5934250227956833386 container=__per_step_-5934250227956833386 dirty=0
+2026-11-13 14:04:53.258918: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5657842505074913162 container=__per_step_-5657842505074913162 dirty=0
+2026-11-13 14:04:53.259163: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2328454510716020787 container=__per_step_-2328454510716020787 dirty=0
+2026-11-13 14:04:53.259407: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-783049142950608997 container=__per_step_-783049142950608997 dirty=0
+2026-11-13 14:04:53.259660: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-128711561222603466 container=__per_step_-128711561222603466 dirty=0
+2026-11-13 14:04:53.259849: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7042904585072201815 container=__per_step_-7042904585072201815 dirty=0
+2026-11-13 14:04:53.260360: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-130931873238202392 container=__per_step_-130931873238202392 dirty=0
+2026-11-13 14:04:53.260613: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6748643028350049390 container=__per_step_-6748643028350049390 dirty=0
+2026-11-13 14:04:53.260832: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4456392913523287597 container=__per_step_-4456392913523287597 dirty=0
+2026-11-13 14:04:53.261065: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3655555506864767616 container=__per_step_-3655555506864767616 dirty=0
+2026-11-13 14:04:53.261352: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3736501719661731256 container=__per_step_-3736501719661731256 dirty=0
+2026-11-13 14:04:53.261661: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5759197820126172447 container=__per_step_-5759197820126172447 dirty=0
+2026-11-13 14:04:53.261931: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4702430922662104741 container=__per_step_-4702430922662104741 dirty=0
+2026-11-13 14:04:53.262151: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6011542511519155488 container=__per_step_-6011542511519155488 dirty=0
+2026-11-13 14:04:53.262482: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4463019801034996651 container=__per_step_-4463019801034996651 dirty=0
+2026-11-13 14:04:53.262757: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3506727687333228155 container=__per_step_-3506727687333228155 dirty=0
+2026-11-13 14:04:53.263084: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2723988566551173790 container=__per_step_-2723988566551173790 dirty=0
+2026-11-13 14:04:53.263292: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6805629396748174446 container=__per_step_-6805629396748174446 dirty=0
+2026-11-13 14:04:53.263582: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8162991171761197179 container=__per_step_-8162991171761197179 dirty=0
+2026-11-13 14:04:53.263958: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4964672656665006060 container=__per_step_-4964672656665006060 dirty=0
+2026-11-13 14:04:53.264304: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7031764828557227582 container=__per_step_-7031764828557227582 dirty=0
+2026-11-13 14:04:53.264442: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:53.264489: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708d10001700
+2026-11-13 14:04:53.264502: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:53.264581: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4796094470404059957 container=__per_step_-4796094470404059957 dirty=0
+2026-11-13 14:04:53.264806: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6906015218924567616 container=__per_step_-6906015218924567616 dirty=0
+2026-11-13 14:04:53.265101: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2298272353355715668
+2026-11-13 14:04:53.265358: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1206527752194031811 container=__per_step_-1206527752194031811 dirty=0
+2026-11-13 14:04:53.265431: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-369613150326196609
+2026-11-13 14:04:53.265656: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8057185968088963064 container=__per_step_-8057185968088963064 dirty=0
+2026-11-13 14:04:53.266099: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2575144704489734097
+2026-11-13 14:04:53.266328: W tensorflow/core/kernels/variable_ops.cc:119] TFRES CREATE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN/tmp_var sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d1801a160
+2026-11-13 14:04:53.266398: W tensorflow/core/kernels/variable_ops.cc:123] TFRES CREATE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ptr=0x708d1801a160 ok=1 code=0 status=OK
+2026-11-13 14:04:53.270984: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-72452497377001561 container=__per_step_-72452497377001561 dirty=0
+2026-11-13 14:04:53.271706: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8233959620670721091 container=__per_step_-8233959620670721091 dirty=0
+2026-11-13 14:04:53.272014: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4880672701408601975 container=__per_step_-4880672701408601975 dirty=0
+2026-11-13 14:04:53.272271: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2525057844014112145 container=__per_step_-2525057844014112145 dirty=0
+2026-11-13 14:04:53.272530: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1414946392980715365 container=__per_step_-1414946392980715365 dirty=0
+2026-11-13 14:04:53.272757: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3641184727940707025 container=__per_step_-3641184727940707025 dirty=0
+2026-11-13 14:04:53.273028: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3853436246774889300 container=__per_step_-3853436246774889300 dirty=0
+2026-11-13 14:04:53.273339: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3257251230792508000 container=__per_step_-3257251230792508000 dirty=0
+2026-11-13 14:04:53.273587: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2622887030886018715 container=__per_step_-2622887030886018715 dirty=0
+2026-11-13 14:04:53.273886: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3648822933324980641 container=__per_step_-3648822933324980641 dirty=0
+2026-11-13 14:04:53.274152: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-201685236759590261 container=__per_step_-201685236759590261 dirty=0
+2026-11-13 14:04:53.274443: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-3701114957809830756 container=__per_step_-3701114957809830756 dirty=0
+2026-11-13 14:04:53.274649: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4637265944060663211 container=__per_step_-4637265944060663211 dirty=0
+2026-11-13 14:04:53.274916: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6855271867395454674 container=__per_step_-6855271867395454674 dirty=0
+2026-11-13 14:04:53.275140: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5663945272360791164 container=__per_step_-5663945272360791164 dirty=0
+2026-11-13 14:04:53.275383: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-211109679016297392 container=__per_step_-211109679016297392 dirty=0
+2026-11-13 14:04:53.275578: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-1038830483230215663 container=__per_step_-1038830483230215663 dirty=0
+2026-11-13 14:04:53.275863: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-7958783228429446478 container=__per_step_-7958783228429446478 dirty=0
+2026-11-13 14:04:53.276111: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-611768884980210895 container=__per_step_-611768884980210895 dirty=0
+2026-11-13 14:04:53.276432: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4817243895253063152 container=__per_step_-4817243895253063152 dirty=0
+2026-11-13 14:04:53.276795: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5952559660462132236 container=__per_step_-5952559660462132236 dirty=0
+2026-11-13 14:04:53.277025: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-4509432683194985271 container=__per_step_-4509432683194985271 dirty=0
+2026-11-13 14:04:53.277335: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2380974750233493599 container=__per_step_-2380974750233493599 dirty=0
+2026-11-13 14:04:53.277581: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-2032909587118614392 container=__per_step_-2032909587118614392 dirty=0
+2026-11-13 14:04:53.277845: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8221992841033695814 container=__per_step_-8221992841033695814 dirty=0
+2026-11-13 14:04:53.278163: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-6097003500687911526 container=__per_step_-6097003500687911526 dirty=0
+2026-11-13 14:04:53.278399: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8069491261935739746 container=__per_step_-8069491261935739746 dirty=0
+2026-11-13 14:04:53.278815: W tensorflow/core/kernels/variable_ops.cc:178] TFRES DELETE_BEGIN name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 node=DirectSumLoss/AddN sc=0x6455a12f4680 rm=0x6455a12d2d00
+2026-11-13 14:04:53.278836: W tensorflow/core/kernels/variable_ops.cc:146] TFRES TMPVAR_DTOR name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 ptr=0x708d1801a160
+2026-11-13 14:04:53.278842: W tensorflow/core/kernels/variable_ops.cc:183] TFRES DELETE_END name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 ok=1 code=0 status=OK
+2026-11-13 14:04:53.279512: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5373546951574539614
+2026-11-13 14:04:53.279632: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8486065452580929027
+2026-11-13 14:04:53.279685: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6371706947159089242
+2026-11-13 14:04:53.279743: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-380025352066657888
+2026-11-13 14:04:53.279914: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4365115593098816752
+2026-11-13 14:04:53.279954: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4788066368446867147
+2026-11-13 14:04:53.279981: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4060236573617951562
+2026-11-13 14:04:53.280011: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1973281575625404094
+2026-11-13 14:04:53.280305: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2377462359551990915
+2026-11-13 14:04:53.280408: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2738537074419793343
+2026-11-13 14:04:53.280446: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8644048177742665980
+2026-11-13 14:04:53.280478: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6902507544059721416
+2026-11-13 14:04:53.280500: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4319024997156820284
+2026-11-13 14:04:53.280602: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-564935894038012961
+2026-11-13 14:04:53.280703: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1664382137618495063
+2026-11-13 14:04:53.281455: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8461701258324596567
+2026-11-13 14:04:53.281547: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1447029975731632544
+2026-11-13 14:04:53.282717: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8080766063826712915
+2026-11-13 14:04:53.282862: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3446070247979953518
+2026-11-13 14:04:53.282927: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8950100008411680489
+2026-11-13 14:04:53.283091: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1591621619075467492
+2026-11-13 14:04:53.283157: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-893602295771922337
+2026-11-13 14:04:53.283235: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6968393373351348243
+2026-11-13 14:04:53.283273: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1714209344414874312
+2026-11-13 14:04:53.283330: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1021101687585509203
+2026-11-13 14:04:53.283365: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-3482351133412655460
+2026-11-13 14:04:53.283407: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4459927959511642450
+2026-11-13 14:04:53.283437: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-8437875600133103134
+2026-11-13 14:04:53.283510: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7770097315118004622
+2026-11-13 14:04:53.283560: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7925331743434692869
+2026-11-13 14:04:53.283959: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-5680873873405795246
+2026-11-13 14:04:53.285023: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-6308853071431843063
+2026-11-13 14:04:53.285117: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-1445240494879289337
+2026-11-13 14:04:53.285180: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7451284175328096673
+2026-11-13 14:04:53.285237: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7756607738724401274
+2026-11-13 14:04:53.285397: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7943215831162906359
+2026-11-13 14:04:53.285436: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-7507838272494018316
+2026-11-13 14:04:53.285465: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-2593222937376525680
+2026-11-13 14:04:53.285496: W tensorflow/core/common_runtime/eager/kernel_and_device.cc:420] TFRES FUNCTION_RUN_OPTIONS sc=0x6455a12f4680 step_id=-4554934965436620325
+4/4 - 0s - loss: 0.4208 - binary_accuracy: 0.5000 - val_loss: 1.0428 - val_binary_accuracy: 0.0000e+00 - 71ms/epoch - 18ms/step
+2026-11-13 14:04:53.779865: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-8645547272024566213 container=__per_step_-8645547272024566213 dirty=0
+2026-11-13 14:04:53.779967: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x708cebffd898 step_id=-5051948946296127954 container=__per_step_-5051948946296127954 dirty=0
+2026-11-13 14:04:53.780762: W ./tensorflow/core/framework/resource_mgr.h:104] TFRES SC_DTOR sc=0x7ffd3b1c8c68 step_id=-4058807281561350259 container=__per_step_-4058807281561350259 dirty=0

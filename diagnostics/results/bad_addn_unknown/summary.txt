@@ -1,0 +1,8 @@
+EOF messages: 1
+CREATE_END_OK: 5
+DELETE_END_OK: 4
+CREATE_END_FAIL: 1
+Eager EndStep: 0 StepContainer cleanup: 0
+RESOURCE name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x5e93f99f6b40 rm=0x5e93f7117a30 create_ok=5 delete_ok=4 create_failed=1
+COLLISION at L352: prior CREATE_OK at L274; matching Delete after Create=False, matching StepContainer cleanup=False
+NOTE: TMPVAR_DTOR is not proof of Delete: a failed Create also destructs its new object.

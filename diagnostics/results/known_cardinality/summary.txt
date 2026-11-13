@@ -1,0 +1,7 @@
+EOF messages: 0
+CREATE_END_OK: 12
+DELETE_END_OK: 12
+CREATE_END_FAIL: 0
+Eager EndStep: 0 StepContainer cleanup: 0
+RESOURCE name=DirectSumLoss/AddN/tmp_var/frame:0/iter:0 sc=0x6455a12f4680 rm=0x6455a12d2d00 create_ok=12 delete_ok=12 create_failed=0
+NOTE: TMPVAR_DTOR is not proof of Delete: a failed Create also destructs its new object.
