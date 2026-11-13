@@ -1,0 +1,12 @@
+FROM python:3.11-slim
+ENV TF_USE_LEGACY_KERAS=1 \
+    CUDA_VISIBLE_DEVICES=-1 \
+    PYTHONUNBUFFERED=1
+RUN python -m pip install --upgrade pip && \
+    python -m pip install --no-cache-dir --pre \
+      "tf-nightly==2.23.0.dev20261111" \
+      "tf-keras-nightly==2.23.0.dev2026111109" && \
+    python -m pip check
+WORKDIR /app
+COPY repro.py .
+ENTRYPOINT ["python", "repro.py"]

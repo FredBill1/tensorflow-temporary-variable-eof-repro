@@ -108,13 +108,20 @@ Resource __per_step_0/DirectSumLoss/AddN/tmp_var/frame:0/iter:0/...
 [[{{node DirectSumLoss/AddN/tmp_var}}]]
 ```
 
-Also reproduced with TensorFlow **2.18.1**:
+Also reproduced with TensorFlow **2.18.1** and **nightly 2.23.0-dev20261111**:
 
 ```bash
 docker build --platform linux/amd64 \
   --build-arg TF_VERSION=2.18.1 --build-arg TF_KERAS_VERSION=2.18.0 \
   -t tf-tempvar:218 .
 docker run --rm --cpus=8 tf-tempvar:218  # FAILS
+```
+
+```bash
+docker build --platform linux/amd64 \
+  -f Dockerfile.nightly \
+  -t tf-tempvar:nightly .
+docker run --rm --cpus=8 tf-tempvar:nightly  # FAILS
 ```
 
 <details>
@@ -159,6 +166,50 @@ Detected at node DirectSumLoss/AddN/tmp_var defined at (most recent call last):
 <stack traces unavailable>
 Resource __per_step_0/DirectSumLoss/AddN/tmp_var/frame:0/iter:0/N10tensorflow19TemporaryVariableOp6TmpVarE
          [[{{node DirectSumLoss/AddN/tmp_var}}]] [Op:__inference_train_function_1069]
+```
+
+```log
+$ docker run --rm --cpus=8 tf-tempvar:nightly  # FAILS
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1794582317.224757       1 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1794582317.271974       1 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+TensorFlow: 2.23.0-dev20261111 Keras: tf_keras.src.engine.training
+E0000 00:00:1794582318.476525       1 cuda_platform.cc:57] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+=== Source Location Trace: ===
+external/xla/xla/stream_executor/cuda/cuda_status.cc:50
+
+Cardinality: -2 sum: AddN
+I0000 00:00:1794582318.604235       1 generator_dataset_op.cc:213] Memory patch applied: M_TRIM_THRESHOLD=128 kb was set.
+Epoch 1/3
+4/4 - 1s - loss: 0.4239 - binary_accuracy: 0.5000 - val_loss: 1.0595 - val_binary_accuracy: 0.0000e+00 - 1s/epoch - 274ms/step
+Epoch 2/3
+W0000 00:00:1794582319.710607      44 op_kernel.cc:1934] OP_REQUIRES failed at variable_ops.cc:120 : ALREADY_EXISTS: Resource __per_step_0/DirectSumLoss/AddN/tmp_var/frame:0/iter:0/N10tensorflow19TemporaryVariableOp6TmpVarE
+=== Source Location Trace: ===
+tensorflow/core/framework/resource_mgr.cc:262
+
+W0000 00:00:1794582319.710660      44 local_rendezvous.cc:461] Local rendezvous is aborting with status: ALREADY_EXISTS: Resource __per_step_0/DirectSumLoss/AddN/tmp_var/frame:0/iter:0/N10tensorflow19TemporaryVariableOp6TmpVarE
+         [[{{node DirectSumLoss/AddN/tmp_var}}]]
+=== Source Location Trace: ===
+tensorflow/core/framework/resource_mgr.cc:262
+tensorflow/core/common_runtime/executor.cc:1156
+
+Traceback (most recent call last):
+  File "/app/repro.py", line 82, in <module>
+    main()
+  File "/app/repro.py", line 78, in main
+    model.fit(train, validation_data=validation, epochs=3, verbose=2)
+  File "/usr/local/lib/python3.11/site-packages/tf_keras/src/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/usr/local/lib/python3.11/site-packages/tensorflow/python/eager/execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tensorflow.python.framework.errors_impl.AlreadyExistsError: Graph execution error:
+
+Detected at node DirectSumLoss/AddN/tmp_var defined at (most recent call last):
+<stack traces unavailable>
+Resource __per_step_0/DirectSumLoss/AddN/tmp_var/frame:0/iter:0/N10tensorflow19TemporaryVariableOp6TmpVarE
+         [[{{node DirectSumLoss/AddN/tmp_var}}]] [Op:__inference_train_function_1109]
 ```
 
 </details>
