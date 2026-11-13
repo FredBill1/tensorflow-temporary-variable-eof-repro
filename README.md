@@ -1,5 +1,7 @@
 # TensorFlow `TemporaryVariable` survives dataset EOF
 
+https://github.com/tensorflow/tensorflow/issues/130303
+
 Minimal CPU reproduction of `AlreadyExistsError` in **TensorFlow 2.18.1 and 2.21.0**, with **legacy TF-Keras**. No GPU, distribution strategy, or custom C++ build required.
 
 ## Reproduce (Linux x86-64 / Docker)
